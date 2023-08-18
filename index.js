@@ -9,7 +9,7 @@ let myServer = myhttp.createServer(
     let secretText;
     let secretHeading;
     if (myRequest.url === "/secret") {
-      secretHeading = "<h1>Enjoy the Treasure</h1>"
+      secretHeading = "<h1>Enjoy the Treasure!</h1>"
       secretText = "<p>the treasure is located at 33.8111° N, 117.9220° W</p>";
     }
     else {
